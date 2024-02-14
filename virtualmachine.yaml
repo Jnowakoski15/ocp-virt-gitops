@@ -18,13 +18,13 @@ spec:
     spec:
       terminationGracePeriodSeconds: 180
       domain:
-        devices:
+        devices: {}
       #   cpu:
       #    cores: 4
       #    sockets: 1
       #    threads: 1
-      #  memory:
-      #    guest: 2048M
+        memory:
+          guest: 2048M
       volumes:
       - dataVolume:
           name: demo-vm-ds-fedora
